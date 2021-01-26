@@ -29,7 +29,7 @@ $ docker run -it --rm -p 8080:8080 issogr/novnc
 
 ### Run with your apps
 
-Per non dover installare manualmente i programmi ad ogni avvio con xterm, consiglio questa personalizzazione.  
+To avoid having to manually install programs every time you start up with xterm, I recommend this customization.  
 
 Create your Dockerfile as below and build it.  
 To add a program, just install it and add the required lines in the supervisord.conf file.
